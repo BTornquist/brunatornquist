@@ -31,4 +31,4 @@ O Rocketpay é um componente que simula o formulário de preenchimento de cartã
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK]
+Você pode visualizar o layout do projeto através [DESSE LINK](https://btornquist.github.io/brunatornquist/)
