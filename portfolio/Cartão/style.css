@@ -1,0 +1,104 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+
+body{
+	background: #8188c0;
+	font-family: "ubuntu";
+}
+
+.frame {
+	position: absolute;
+	background-color: rgb(37, 36, 102);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 500px;
+	height: 400px;
+	box-shadow: 8px 16px 16px rgba(0, 0, 0, 0.6);
+}
+
+.frame, .card {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  
+}
+
+.flip-me {
+	position: absolute;
+	top: 30%;
+	left: 77%;
+	font-size: 20px;
+	transform: rotate(-90deg);
+	color: rgba(255, 255, 255, 0.2);
+}
+
+.front h1 {
+	font-size: 128px;
+	margin: 10px 20px;
+  height: 200px;
+	color: #2f99ef;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+/* faz virar */
+.card:hover .flip{
+	transform: rotateX(180deg) translate3d(0, 0, 0);
+	box-shadow: 8px -10px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.flip {
+	transform-style: preserve-3d;
+	transition: all 0.7s ease-in-out;
+	perspective: 1000px;
+  height: 200px;
+}
+
+.front, .back {
+	-webkit-backface-visibility: hidden;
+	width: 400px;
+	height: 200px;
+	background: rgb(102, 102, 124);
+}
+
+.card .back {
+	transform: rotateX(-180deg);
+	position: absolute;
+	top: 0px;
+	left: 0;
+}
+
+.back {
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.back h2 {
+	font-size: 36px;
+	margin: 8px;
+	color: #2f99ef;
+}
+
+.back h3 {
+	color: rgba(255, 255, 255, 0.7);
+	font-weight: 300;
+	font-size: 32px;
+	margin: 32px;
+}
+
+img {
+	width: 32px;
+}
+
+img:hover {
+  
+	cursor: pointer;
+
+}
