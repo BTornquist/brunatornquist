@@ -24,8 +24,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-
-O Rocketpay é um componente que simula o formulário de preenchimento de cartão de crédito, onde é possível adicionar máscara aos inputs e atualizar elementos HTML via DOM.
+Este projeto foi entregue como parte avaliativa do curso Do Zero ao Primeiro Site oferecido pelo grupo +praTi. Ele tem como intuito de servir como uma página de apresentação do aluno como desenvolvedor, assim como os projetos executados em aula.
+O site consiste em uma folha de rosto seguida por uma apresentação do candidato.
+Uma seção onde apresenta as habilidades aprendidas.
+Um portfólio onde são apresentadas as páginas criadas.
+Uma seção para contatos localização.
+E encerrado por um fotter com a assinatura do desenvolvedor.
 
 <br>
 
