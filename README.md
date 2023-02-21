@@ -28,7 +28,7 @@ Este projeto foi entregue como parte avaliativa do curso Do Zero ao Primeiro Sit
 O site consiste em uma folha de rosto seguida por uma apresentação do candidato.
 Uma seção onde apresenta as habilidades aprendidas.
 Um portfólio onde são apresentadas as páginas criadas.
-Uma seção para contatos localização.
+Uma seção para contatos e localização.
 E encerrado por um fotter com a assinatura do desenvolvedor.
 
 <br>
